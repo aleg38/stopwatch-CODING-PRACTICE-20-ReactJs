@@ -1,0 +1,77 @@
+/* Write CSS here */
+.app-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/stopwatch-sm-bg.png');
+
+  height: 100vh;
+  padding: 20px;
+}
+
+.main-heading {
+  color: #333333;
+  font-size: 25px;
+  font-weight: 500;
+  margin-top: 17px;
+
+  margin-left: 47px;
+}
+
+.timer-card-container {
+  background-color: #ffffff;
+  box-shadow: 0px 4px 16px 0px;
+  border-radius: 5px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  padding: 20px;
+
+  margin-left: 47px;
+}
+.timer-image {
+  height: 20px;
+  width: 20px;
+  margin-top: 16px;
+}
+.timer-container {
+  display: flex;
+  justify-content: center;
+}
+.timer-heading {
+  font-size: 18px;
+  font-weight: 500;
+  margin-left: 5px;
+}
+.timer {
+  color: #333333;
+  font-size: 33px;
+  font-weight: 700;
+}
+.buttons-container {
+  display: flex;
+}
+.button {
+  height: 30px;
+  width: 60px;
+  font-size: 14px;
+  font-weight: 400;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  outline: none;
+  border-width: 0px;
+  margin-right: 7px;
+}
+
+.green {
+  background-color: #1db05f;
+  margin-left: 5px;
+}
+.red {
+  background-color: #ef0d36;
+}
+.yellow {
+  background-color: #eaa800;
+}
